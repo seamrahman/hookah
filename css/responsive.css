@@ -1,0 +1,1316 @@
+/* =========320px-575px size================ */
+
+@media (min-width:320px) and (max-width:575.98px) {
+
+    /*======== nav part start======== */
+
+    nav ul {
+        text-align: center;
+        background: #0a0b0c;
+    }
+
+    nav i {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    /*======== nav part end======== */
+
+    /*======== banner part start======== */
+    #banner-part .banner .overlay {
+        padding-top: 140px;
+        padding-bottom: 160px;
+    }
+
+    #banner-part .banner .overlay h4 {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 40px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 50px;
+    }
+
+    #banner-part .banner .overlay h3 {
+        font-size: 24px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        width: 60px;
+        left: -15px;
+    }
+
+    #banner-part .banner .overlay h3::before {
+        width: 60px;
+        right: -15px;
+    }
+
+    #banner-part .prev {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    #banner-part .next {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    /*======== contact_banner part start======== */
+    #contact #banner-part .overlay {
+        padding-top: 180px;
+        padding-bottom: 40px;
+    }
+
+    #contact #banner-part .overlay .text h2 {
+        font-size: 30px;
+    }
+
+    #contact #banner-part .overlay .button a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    #contact #banner-part .overlay .button {
+        margin-bottom: 60px;
+    }
+
+    #contact #banner-part .overlay .counter-item {
+        width: auto;
+    }
+
+    #contact #banner-part .overlay .counter-item .down h3 {
+        font-size: 20px;
+    }
+
+    #contact #banner-part .overlay .counter-item .down p {
+        font-size: 40px;
+    }
+
+    /*======== contact_banner part end======== */
+
+    /*======== banner part end======== */
+
+    /*======== story part start ======== */
+
+    #story-part {
+        padding-bottom: 60px;
+    }
+
+    #story-part .img {
+        text-align: center;
+    }
+
+    #story-part .img img {
+        margin-right: 0;
+    }
+
+    #story-part .text .title {
+        padding-top: 60px;
+        text-align-last: center;
+    }
+
+    #story-part .img img {
+        padding-top: 60px;
+    }
+
+    #story-part .smoke {
+        display: none;
+    }
+
+    #story-part .img .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        top: 53%;
+    }
+
+    #story-part .img .icon i {
+        width: 70px;
+        height: 70px;
+        line-height: 71px;
+    }
+
+    #story-part .text {
+        text-align: center;
+    }
+
+    #story-part .text .first {
+        width: auto;
+        text-align: center;
+    }
+
+    #story-part .text .secend {
+        width: auto;
+        text-align: center;
+    }
+
+    /*======== home_story part start======== */
+
+    #home #story-part .img {
+        text-align: center;
+    }
+
+    #home #story-part .img .icon {
+        left: 50%;
+    }
+
+    /*======== home_story part end======== */
+
+    /*======== story_story part start======== */
+    #story #story-part .main {
+        width: auto;
+    }
+
+    #story #story-part .item {
+        margin: 0 4px;
+    }
+
+    #story #story-part .main .item img {
+        width: 100%;
+    }
+
+    #story #story-part .text a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    #story #story-part .item .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    #story #team-part {
+        padding-bottom: 100px;
+    }
+
+    /*======== story_story part end======== */
+
+    /*======== story part end======== */
+
+    /*======== hour part start======== */
+
+    #hour-part {
+        padding-bottom: 0;
+    }
+
+    #hour-part .bac_img {
+        display: none;
+    }
+
+    #hour-part .counter .left {
+        width: 45%;
+    }
+
+    #hour-part .counter .right {
+        width: 45%;
+    }
+
+    #hour-part .next {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #hour-part .date {
+        padding-left: 70px;
+        margin-top: 60px;
+        border: none;
+    }
+
+
+    /*======== hour part end======== */
+
+    /*======== gallery part start======== */
+    #gallery-part .gallery .img .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    #gallery-part .gallery .img .icon a {
+        font-size: 25px;
+    }
+
+    /*======== gallery_page part start======== */
+
+    #gallery-page {
+        padding-top: 50px;
+    }
+
+    #gallery-page .item {
+        width: 45%;
+    }
+
+    #gallery-page .item .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    #gallery-page .item .icon a {
+        font-size: 25px;
+    }
+
+    /*======== gallery_page part end======== */
+
+    /*======== gallery part end======== */
+
+    /*======== make part start======== */
+    #make-part {
+        padding: 70px 0;
+    }
+
+    #make-part .text .title {
+        text-align-last: center;
+    }
+
+    #make-part .img {
+        padding-bottom: 30px;
+    }
+
+    #make-part .text form .submit button {
+        padding: 20px 34%;
+    }
+
+    #make-part .submit {
+        display: grid;
+    }
+
+    /*======== make part end======== */
+
+    /*======== test part start======== */
+
+    #test-part {
+        padding-bottom: 20px;
+    }
+
+    #test-part .mid {
+        width: auto;
+    }
+
+    #test-part .test .img img {
+        width: auto;
+    }
+
+    #test-part .test .text p {
+        width: auto;
+    }
+
+    /*======== test part end======== */
+
+    /*======== footer part start======== */
+
+    footer .icon::before {
+        display: none;
+    }
+
+    footer .icon::after {
+        display: none;
+    }
+
+    footer .icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    footer .footer-bottom p {
+        font-size: 16px;
+    }
+
+    /*======== footer part end======== */
+
+    /* ================================== */
+}
+
+/* =========576px-767px size================ */
+
+@media (min-width:576px) and (max-width:767.98px) {
+
+    /*======== nav part start======== */
+
+    nav ul {
+        text-align: center;
+        background: #0a0b0c;
+    }
+
+    nav i {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    /*======== nav part end======== */
+
+    /*======== banner part start======== */
+    #banner-part .banner .overlay {
+        padding-top: 140px;
+        padding-bottom: 160px;
+    }
+
+    #banner-part .banner .overlay h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 50px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 55px;
+    }
+
+    #banner-part .banner .overlay h3 {
+        font-size: 24px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        width: 70px;
+        left: -15px;
+    }
+
+    #banner-part .banner .overlay h3::before {
+        width: 70px;
+        right: -15px;
+    }
+
+    #banner-part .prev {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    #banner-part .next {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    /*======== contact_banner part start======== */
+    #contact #banner-part .overlay {
+        padding-top: 180px;
+        padding-bottom: 40px;
+    }
+
+    #contact #banner-part .overlay .text h2 {
+        font-size: 34px;
+    }
+
+    #contact #banner-part .overlay .button a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    #contact #banner-part .overlay .button {
+        margin-bottom: 60px;
+    }
+
+    #contact #banner-part .overlay .counter-item {
+        width: auto;
+    }
+
+    #contact #banner-part .overlay .counter-item .down h3 {
+        font-size: 20px;
+    }
+
+    #contact #banner-part .overlay .counter-item .down p {
+        font-size: 40px;
+    }
+
+    /*======== contact_banner part end======== */
+
+    /*======== banner part end======== */
+
+    /*======== story part start ======== */
+
+    #story-part {
+        padding-bottom: 60px;
+    }
+
+    #story-part .img {
+        text-align: center;
+    }
+
+    #story-part .img img {
+        margin-right: 0;
+    }
+
+    #story-part .text .title {
+        padding-top: 60px;
+        text-align-last: center;
+    }
+
+    #story-part .img img {
+        padding-top: 60px;
+    }
+
+    #story-part .smoke {
+        display: none;
+    }
+
+    #story-part .img .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        top: 52%;
+    }
+
+    #story-part .img .icon i {
+        width: 70px;
+        height: 70px;
+        line-height: 71px;
+    }
+
+    #story-part .text {
+        text-align: center;
+    }
+
+    #story-part .text .first {
+        width: auto;
+        text-align: center;
+    }
+
+    #story-part .text .secend {
+        width: auto;
+        text-align: center;
+    }
+
+    /*======== home_story part start======== */
+
+    #home #story-part .img {
+        text-align: center;
+    }
+
+    #home #story-part .img .icon {
+        left: 50%;
+    }
+
+    /*======== home_story part end======== */
+
+    /*======== story_story part start======== */
+    #story #story-part .main {
+        width: auto;
+    }
+
+    #story #story-part .item {
+        margin: 0 4px;
+    }
+
+    #story #story-part .main .item img {
+        width: 100%;
+    }
+
+    #story #story-part .text a {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+    }
+
+    #story #story-part .item .icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    /*======== story_story part end======== */
+
+    /*======== story part end======== */
+
+    /*======== counter part start======== */
+    #counter-part .back .item {
+        margin-bottom: 30px;
+    }
+
+    #counter-part .back {
+        padding-bottom: 20px;
+    }
+
+    #story #team-part {
+        padding-bottom: 100px;
+    }
+
+    /*======== counter part end======== */
+
+    /*======== hour part start======== */
+
+    #hour-part {
+        padding-bottom: 0;
+    }
+
+    #hour-part .bac_img {
+        display: none;
+    }
+
+    #hour-part .counter .left {
+        width: 45%;
+    }
+
+    #hour-part .counter .right {
+        width: 45%;
+    }
+
+    #hour-part .next {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #hour-part .date {
+        padding-left: 80px;
+        margin-top: 60px;
+        border: none;
+    }
+
+
+    /*======== hour part end======== */
+
+    /*======== gallery part start======== */
+    #gallery-part .gallery .img .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    #gallery-part .gallery .img .icon a {
+        font-size: 28px;
+    }
+
+    /*======== gallery_page part start======== */
+
+    #gallery-page {
+        padding-top: 50px;
+    }
+
+    #gallery-page .item {
+        width: 45%;
+    }
+
+    #gallery-page .item .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    #gallery-page .item .icon a {
+        font-size: 28px;
+    }
+
+    /*======== gallery_page part end======== */
+
+    /*======== gallery part end======== */
+
+    /*======== make part start======== */
+    #make-part {
+        padding: 70px 0;
+    }
+
+    #make-part .text .title {
+        text-align-last: center;
+    }
+
+    #make-part .img {
+        padding-bottom: 30px;
+        display: grid;
+        place-items: center;
+    }
+
+    #make-part .img img {
+        width: 75%;
+    }
+
+    #make-part .text form .submit button {
+        padding: 20px 34%;
+    }
+
+    #make-part .submit {
+        display: grid;
+    }
+
+    /*======== make part end======== */
+
+    /*======== test part start======== */
+
+    #test-part {
+        padding-bottom: 20px;
+    }
+
+    #test-part .mid {
+        width: auto;
+    }
+
+    #test-part .test .img img {
+        width: auto;
+    }
+
+    #test-part .test .text p {
+        width: auto;
+    }
+
+    /*======== test part end======== */
+
+    /*======== footer part start======== */
+
+    footer .icon::before {
+        display: none;
+    }
+
+    footer .icon::after {
+        display: none;
+    }
+
+    footer .icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    footer .footer-bottom p {
+        font-size: 16px;
+    }
+
+    /*======== footer part end======== */
+
+    /* ================================== */
+}
+
+/* =========768px-991px size================ */
+
+@media (min-width:768px) and (max-width:991.98px) {
+
+    /*======== nav part start======== */
+
+    nav ul {
+        text-align: center;
+        background: #0a0b0c;
+    }
+
+    nav i {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    nav ul li a::after {
+        display: none;
+    }
+
+    nav .navbar-toggler:focus {
+        box-shadow: 0 0 0 0;
+    }
+
+    /*======== nav part end======== */
+
+    /*======== banner part start======== */
+    #banner-part .banner .overlay {
+        padding-top: 140px;
+        padding-bottom: 160px;
+    }
+
+    #banner-part .banner .overlay h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 50px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 55px;
+    }
+
+    #banner-part .banner .overlay h3 {
+        font-size: 24px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        width: 70px;
+        left: -15px;
+    }
+
+    #banner-part .banner .overlay h3::before {
+        width: 70px;
+        right: -15px;
+    }
+
+    #banner-part .prev {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    #banner-part .next {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    /*======== contact_banner part start======== */
+    #contact #banner-part .overlay {
+        padding-top: 180px;
+    }
+
+    #contact #banner-part .overlay .text h2 {
+        font-size: 34px;
+    }
+
+    #contact #banner-part .overlay .button {
+        margin-bottom: 100px;
+    }
+
+    #contact #banner-part .overlay .counter-item {
+        width: auto;
+    }
+
+    #contact #banner-part .overlay .counter-item .down h3 {
+        font-size: 20px;
+    }
+
+    #contact #banner-part .overlay .counter-item .down p {
+        font-size: 40px;
+    }
+
+    /*======== contact_banner part end======== */
+
+    /*======== banner part end======== */
+
+    /*======== story part start ======== */
+
+    #story-part {
+        padding-bottom: 60px;
+    }
+
+    #story-part .img {
+        text-align: center;
+    }
+
+    #story-part .img img {
+        margin-right: 0;
+    }
+
+    #story-part .text .title {
+        padding-top: 60px;
+        text-align-last: center;
+    }
+
+    #story-part .img img {
+        padding-top: 60px;
+    }
+
+    #story-part .smoke {
+        display: none;
+    }
+
+    #story-part .img .icon {
+        width: 70px;
+        height: 70px;
+        font-size: 20px;
+        top: 52%;
+    }
+
+    #story-part .img .icon i {
+        width: 70px;
+        height: 70px;
+        line-height: 71px;
+    }
+
+    #story-part .text {
+        text-align: center;
+    }
+
+    #story-part .text .first {
+        width: auto;
+        text-align: center;
+    }
+
+    #story-part .text .secend {
+        width: auto;
+        text-align: center;
+    }
+
+    /*======== home_story part start======== */
+
+    #home #story-part .img {
+        text-align: center;
+    }
+
+    #home #story-part .img .icon {
+        left: 50%;
+    }
+
+    /*======== home_story part end======== */
+
+    /*======== story_story part start======== */
+    #story #story-part .main {
+        width: auto;
+    }
+
+    #story #story-part .item {
+        margin: 0 4px;
+    }
+
+    #story #story-part .main .item img {
+        width: 90%;
+    }
+
+    /*======== story_story part end======== */
+
+    /*======== story part end======== */
+
+    /*======== counter part start======== */
+    #counter-part .back .item {
+        margin-bottom: 30px;
+    }
+
+    #counter-part .back {
+        padding-bottom: 20px;
+    }
+
+    #story #team-part {
+        padding-bottom: 100px;
+    }
+
+    /*======== counter part end======== */
+
+    /*======== hour part start======== */
+
+    #hour-part {
+        padding-bottom: 0;
+    }
+
+    #hour-part .bac_img {
+        display: none;
+    }
+
+    #hour-part .counter .left {
+        width: 45%;
+    }
+
+    #hour-part .counter .right {
+        width: 45%;
+    }
+
+    #hour-part .next {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #hour-part .date {
+        padding-left: 60px;
+        margin-top: 70px;
+
+    }
+
+
+    /*======== hour part end======== */
+
+    /*======== gallery part start======== */
+    #gallery-part {
+        padding-top: 60px;
+    }
+
+    #gallery-part .gallery .img .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    #gallery-part .gallery .img .icon a {
+        font-size: 28px;
+    }
+
+    /*======== gallery_page part start======== */
+
+    #gallery-page {
+        padding-top: 50px;
+    }
+
+    #gallery-page .item {
+        width: 45%;
+    }
+
+    /*======== gallery_page part end======== */
+
+    /*======== gallery part end======== */
+
+    /*======== make part start======== */
+    #make-part {
+        padding: 70px 0;
+    }
+
+    #make-part .text .title {
+        text-align-last: center;
+    }
+
+    #make-part .img {
+        padding-bottom: 30px;
+        display: grid;
+        place-items: center;
+    }
+
+    #make-part .img img {
+        width: 75%;
+    }
+
+    #make-part .text form .submit button {
+        padding: 20px 34%;
+    }
+
+    #make-part .submit {
+        display: grid;
+    }
+
+    /*======== make part end======== */
+
+    /*======== test part start======== */
+
+    #test-part {
+        padding-bottom: 20px;
+    }
+
+    #test-part .mid {
+        width: auto;
+    }
+
+    #test-part .test .img img {
+        width: auto;
+    }
+
+    #test-part .test .text p {
+        width: auto;
+    }
+
+    /*======== test part end======== */
+
+    /*======== footer part start======== */
+
+    footer .icon::before {
+        display: none;
+    }
+
+    footer .icon::after {
+        display: none;
+    }
+
+    footer .icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    footer .footer-bottom p {
+        font-size: 16px;
+    }
+
+    /*======== footer part end======== */
+
+    /* ================================== */
+}
+
+/* =========992px-1199px size================ */
+
+@media (min-width:992px) and (max-width:1199.98px) {
+
+    /*======== banner part start======== */
+    #banner-part .banner .overlay {
+        padding-top: 140px;
+        padding-bottom: 160px;
+    }
+
+    #banner-part .banner .overlay h4 {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    #banner-part .banner .overlay h2 {
+        font-size: 50px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 55px;
+    }
+
+    #banner-part .banner .overlay h3 {
+        font-size: 24px;
+    }
+
+    #banner-part .banner .overlay h3::after {
+        width: 70px;
+        left: -15px;
+    }
+
+    #banner-part .banner .overlay h3::before {
+        width: 70px;
+        right: -15px;
+    }
+
+    #banner-part .prev {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    #banner-part .next {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 40px;
+    }
+
+    /*======== contact_banner part start======== */
+    #contact #banner-part .overlay {
+        padding-top: 300px;
+    }
+
+    #contact #banner-part .overlay .counter-item {
+        width: auto;
+    }
+
+    /*======== contact_banner part end======== */
+
+    /*======== banner part end======== */
+
+    /*======== story part start ======== */
+
+    #story-part {
+        padding-bottom: 60px;
+    }
+
+    #story-part .img {
+        text-align: center;
+    }
+
+    #story-part .img img {
+        margin-right: 0;
+    }
+
+    #story-part .text .title {
+        padding-top: 60px;
+    }
+
+    #story-part .img img {
+        padding-top: 85px;
+    }
+
+    #story-part .img img {
+        width: 100%;
+    }
+
+    #story-part .smoke {
+        display: none;
+    }
+
+    #story-part .img .icon {
+        top: 59%;
+    }
+
+
+    #story-part .text .first {
+        width: auto;
+    }
+
+    #story-part .text .secend {
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    /*======== home_story part start======== */
+
+    #home #story-part .img {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    #home #story-part .img .icon {
+        left: 50%;
+    }
+
+    /*======== home_story part end======== */
+
+    /*======== story_story part start======== */
+    #story #story-part .main {
+        width: auto;
+    }
+
+    #story #story-part .main .item img {
+        width: 90%;
+    }
+
+    #story #story-part .img img {
+        width: 100%;
+    }
+
+    #story #story-part .img img {
+        padding-top: 140px;
+    }
+
+    #story #story-part .img .icon {
+        top: 62%;
+    }
+
+
+    /*======== story_story part end======== */
+
+    /*======== story part end======== */
+
+    /*======== counter part start======== */
+    #counter-part .back .item {
+        margin-bottom: 30px;
+    }
+
+    #counter-part .back {
+        padding-bottom: 20px;
+    }
+
+    #story #team-part {
+        padding-bottom: 100px;
+    }
+
+    /*======== counter part end======== */
+
+    /*======== hour part start======== */
+    #hour-part .counter .left {
+        width: 45%;
+    }
+
+    #hour-part .counter .right {
+        width: 45%;
+    }
+
+    #hour-part .next {
+        text-align: center;
+        margin-right: 0;
+    }
+
+    /*======== hour part end======== */
+
+    /*======== gallery part start======== */
+    #gallery-part {
+        padding-top: 60px;
+    }
+
+    #gallery-part .gallery .img .icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    #gallery-part .gallery .img .icon a {
+        font-size: 28px;
+    }
+
+    /*======== gallery_page part start======== */
+    /* 
+    #gallery-page {
+        padding-top: 50px;
+    }
+
+    #gallery-page .item{
+        width: 45%;
+    } */
+
+    #gallery-page .item .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    #gallery-page .item .icon a {
+        font-size: 25px;
+    }
+
+    /*======== gallery_page part end======== */
+
+    /*======== gallery part end======== */
+
+    /*======== make part start======== */
+
+    #make-part .img img {
+        height: 53vh;
+    }
+
+    #make-part .text form .submit button {
+        padding: 20px 34%;
+    }
+
+    #make-part .submit {
+        display: grid;
+    }
+
+    /*======== make part end======== */
+
+    /*======== test part start======== */
+
+    #test-part {
+        padding-bottom: 20px;
+    }
+
+    #test-part .mid {
+        width: auto;
+    }
+
+    #test-part .test .img img {
+        width: auto;
+    }
+
+    #test-part .test .text p {
+        width: auto;
+    }
+
+    /*======== test part end======== */
+
+    /*======== footer part start======== */
+
+    footer .icon::before {
+        display: none;
+    }
+
+    footer .icon::after {
+        display: none;
+    }
+
+    footer .icon i {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    footer .footer-bottom p {
+        font-size: 16px;
+    }
+
+    /*======== footer part end======== */
+
+    /* ================================== */
+}

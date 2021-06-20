@@ -1,0 +1,1469 @@
+/* 
+------------------
+Template Name: Hookha HTML Tamplte
+Author Email: sr.rahul8098@gmail.com
+Date: 20/06/2021
+------------------
+
+----------------
+Table of Content
+----------------
+1.navbar part
+2.banner part
+3.story part
+4.happy hour part 
+5.team part
+6.gallery part
+7.eservation part
+8.counter part
+9.footer part
+10.contact part
+*/
+
+
+/* ============================
+       common css start
+================================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* ============================
+       common css start
+================================*/
+
+/* ============================
+     navbar part css start
+================================*/
+
+nav {
+    background: transparent;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    transition: all ease .3s;
+}
+
+.fixed {
+    background: #000;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff !important;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all ease .4s;
+    position: relative;
+    z-index: 999;
+}
+
+nav ul li a::after {
+    position: absolute;
+    top: -11px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #fff;
+    content: "";
+    z-index: -22;
+    border-bottom: 3px solid #ed5034;
+    transition: all ease .4s
+}
+
+nav ul li a:hover {
+    color: #ed5034 !important;
+}
+
+nav ul li a:hover::after {
+    height: 65px;
+}
+
+nav ul li .active {
+    color: #ed5034 !important;
+}
+
+nav ul li .active::after {
+    height: 65px;
+}
+
+/* ============================
+     navbar part css end
+================================*/
+
+/* ============================
+      banner part css start
+================================*/
+
+#banner-part .banner {
+    background: url(../images/banner_1_optonal.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner_1 {
+    background: url(../images/banner_optonal_compressed.jpg) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner_2 {
+    background: url(../images/banner_3.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner .overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding-top: 235px;
+    padding-bottom: 282px;
+    text-align: center;
+    color: #fff;
+}
+
+#banner-part .banner .overlay h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+#banner-part .banner .overlay h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#banner-part .banner .overlay h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+#banner-part .banner .overlay h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+#banner-part .banner .overlay h3::after {
+    width: 102px;
+    height: 2px;
+    background: #ed5034;
+    position: absolute;
+    top: 50%;
+    left: -25PX;
+    transform: translate(-100%, -50%);
+    content: "";
+}
+
+#banner-part .banner .overlay h3::before {
+    width: 102px;
+    height: 2px;
+    background: #ed5034;
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    transform: translate(100%, -50%);
+    content: "";
+}
+
+#banner-part .prev {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-110%);
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #5f6060;
+    color: #5f6060;
+    text-align: center;
+    line-height: 70px;
+    z-index: 1;
+    font-size: 20px;
+    transition: all ease .4s;
+    cursor: pointer;
+}
+
+#banner-part .prev:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #ed5034;
+}
+
+#banner-part .next {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(20%);
+    width: 70px;
+    height: 70px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #5f6060;
+    color: #5f6060;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    transition: all ease .4s;
+    cursor: pointer;
+}
+
+#banner-part .next:hover {
+    background: #fff;
+    border-color: #fff;
+    color: #ed5034;
+}
+
+/* ============================
+    story_banner part css start
+================================*/
+#story #banner-part {
+    background: url(../images/story_banner_bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#story #banner-part .overlay {
+    padding-top: 183px;
+    padding-bottom: 152px;
+    background: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#story #banner-part .overlay h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#story #banner-part .overlay h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* ============================
+    story_banner part css end
+================================*/
+
+/* ============================
+  contact_banner part css start
+================================*/
+
+#contact #banner-part {
+    background: url(../images/contact_bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#contact #banner-part .overlay {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    padding-top: 360px;
+    padding-bottom: 60px;
+}
+
+#contact #banner-part .overlay .text {
+    position: relative;
+}
+
+#contact #banner-part .overlay .text h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+#contact #banner-part .overlay .text h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 65px;
+}
+
+#contact #banner-part .overlay .text .shape {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    width: 50px;
+    height: 3px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+#contact #banner-part .overlay .button {
+    margin-bottom: 140px;
+}
+
+#contact #banner-part .overlay .button a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: url(../images/explore_more_bg.png) no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    border: 1px solid #2e3232;
+    color: #eb4f34;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 40px;
+}
+
+#contact #banner-part .overlay .counter-item {
+    width: 570px;
+    margin: 0 auto;
+
+}
+
+#contact #banner-part .overlay .counter-item .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact #banner-part .overlay .counter-item .down {
+    width: 24%;
+    text-align: center;
+}
+
+#contact #banner-part .overlay .counter-item .down p {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+#contact #banner-part .overlay .counter-item .down h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: #fff;
+}
+
+
+/* ============================
+   contact_banner part css end
+================================*/
+
+/* ============================
+      banner part css end
+================================*/
+
+/* ============================
+      story part css start
+================================*/
+
+#story-part {
+    background: url(../images/story_bg.png) no-repeat center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+#story-part .img {
+    text-align: right;
+    position: relative;
+}
+
+#story-part .img img {
+    width: 90%;
+    margin-right: 20px;
+    padding-top: 100px;
+}
+
+#story-part .img .icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    line-height: 50px;
+    position: absolute;
+    top: 56%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+
+#story-part .img .icon::after {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-shadow: inset 0 0 0 3px #FFF;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.pulsing::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-shadow: inset 0 0 0 3px #FFF;
+    transition: transform 0.2s, opacity 0.2s;
+    animation: pulsing 2.7s infinite;
+    z-index: -1;
+}
+
+@keyframes pulsing {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+#story-part .img .icon:hover:after {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+#story-part .img .icon i {
+    color: #ed5034;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+}
+
+#story-part .text .title {
+    padding-top: 165px;
+    text-align-last: left;
+}
+
+#story-part .text .title h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+#story-part .text .first {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 0;
+    width: 660px;
+}
+
+#story-part .text .secend {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 60px;
+    width: 660px;
+}
+
+#story-part .text a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: url(../images/explore_more_bg.png) no-repeat bottom;
+    cursor: pointer;
+    border: 1px solid #2e3232;
+    color: #eb4f34;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 40px;
+}
+
+#story-part .rele {
+    position: relative;
+}
+
+#story-part .smoke {
+    position: absolute;
+    top: -230px;
+    left: -123px;
+}
+
+/* ============================
+     home_story part css start
+================================*/
+#home #story-part .img img {
+    margin-right: 0;
+}
+
+#home #story-part .img .icon {
+    top: 57%;
+    left: 55%;
+    z-index: 1;
+}
+
+#home #story-part .smoke {
+    left: -105px;
+}
+
+/* ============================
+     home_story part css end
+================================*/
+
+/* ============================
+     story_story part css start
+================================*/
+
+#story #story-part {
+    padding-bottom: 60px;
+}
+
+#story #story-part .img img {
+    width: 93%;
+}
+
+#story #story-part .text .secend {
+    margin-bottom: 40px;
+}
+
+#story #story-part .main {
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+}
+
+#story #story-part .item {
+    width: 33%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+#story #story-part .item .shape {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease .3s;
+    border-radius: 50%;
+}
+
+#story #story-part .item .shape:hover {
+    background: rgba(0, 0, 0, .8);
+}
+
+#story #story-part .item .shape:hover .icon {
+    opacity: 1;
+}
+
+#story #story-part .item .icon {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all ease .3s;
+}
+
+
+#story #story-part .item .icon:hover:after {
+    transform: scale(1.3);
+    opacity: 0.8;
+}
+
+#story #story-part .item .icon::after {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-shadow: inset 0 0 0 3px #FFF;
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+#story #story-part .text a {
+    color: #ed5034;
+    width: 56px;
+    height: 56px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 57px;
+    border: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+#story #story-part .smoke {
+    top: -205px;
+}
+
+/* ============================
+     story_story part css end
+================================*/
+
+/* ============================
+      story part css end
+================================*/
+
+/* ============================
+      counter part css start
+================================*/
+#counter-part {
+    background: url(../images/team_bg.png) no-repeat top;
+    background-size: cover;
+}
+
+#counter-part .back {
+    background: url(../images/counter_bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 65px;
+}
+
+#counter-part .back .item {
+    text-align: center;
+    color: #fff;
+}
+
+#counter-part .back .item h3 {
+    display: inline-block;
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#counter-part .back .item span {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#counter-part .back .item p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+
+/* ============================
+      counter part css end
+================================*/
+
+/* ============================
+      hour part css start
+================================*/
+
+#hour-part {
+    background: rgba(0, 0, 0, .95);
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#hour-part .bac_img {
+    text-align: right;
+    position: absolute;
+    top: -16%;
+    right: 0;
+    transform: translateY(-10%);
+}
+
+#hour-part .counter {
+    display: flex;
+    justify-content: space-between;
+}
+
+#hour-part .counter {
+    padding-top: 60px;
+}
+
+#hour-part .counter .left {
+    width: 62%;
+    display: grid;
+    place-items: end;
+}
+
+#hour-part .counter .day {
+    width: 150px;
+    height: 150px;
+    background: url(../images/explore_more_bg.png) no-repeat left;
+    border-radius: 50%;
+    border: 1px solid #2d2d2d;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#hour-part .counter .day p {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#hour-part .counter .day h4 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: -32px;
+}
+
+
+#hour-part .counter .right {
+    width: 31%;
+}
+
+#hour-part .next {
+    text-align: right;
+    margin-right: 95px;
+}
+
+#hour-part .next h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#hour-part .date {
+    margin-top: 110px;
+    padding-left: 80px;
+    border-left: 1px solid #282728;
+}
+
+#hour-part .date .text {
+    margin-bottom: 55px;
+}
+
+#hour-part .date .text h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#hour-part .date .text h2 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+}
+
+#hour-part .date .text h2::after {
+    width: 50px;
+    height: 3px;
+    background: #ed5034;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    content: "";
+}
+
+#hour-part .date .last h2::after {
+    display: none;
+}
+
+#hour-part .date .text h2::before {
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+    position: absolute;
+    bottom: -100%;
+    right: 75%;
+    content: "";
+}
+
+#hour-part .date .last h2::before {
+    display: none;
+}
+
+/* ============================
+      home_hour part css start
+================================*/
+
+#home #hour-part .bac_img {
+    top: -40%;
+}
+
+/* ============================
+      home_hour part css end
+================================*/
+
+/* ============================
+      hour part css end
+================================*/
+
+
+/* ============================
+      team part css start
+================================*/
+#team-part {
+    background: url(../images/team_bg2.png) no-repeat center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+#team-part .team {
+    text-align: center;
+    margin: 0 15px;
+
+}
+
+#team-part .team .img {
+    padding-top: 65px;
+
+}
+
+#team-part .team .img img {
+    width: 100%;
+}
+
+
+#team-part .team .text h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #fff;
+    margin: 10px 0;
+}
+
+#team-part .team .text h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    color: #fff;
+}
+
+#team-part .slick-dots {
+    position: absolute;
+    bottom: -90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#team-part ul {
+    padding-left: 0 !important;
+}
+
+#team-part .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#team-part .slick-dots li button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    transition: all ease .4s;
+}
+
+#team-part .slick-dots .slick-active button {
+    background-color: #ed5034;
+    transform: scale(1.3);
+}
+
+#team-part .smok {
+    position: relative;
+    z-index: 1;
+}
+
+#team-part .back {
+    position: absolute;
+    top: -22%;
+    left: 24%;
+    z-index: -1;
+
+}
+
+/* ============================
+      story_team part css start
+================================*/
+#story #team-part {
+    padding-bottom: 170px;
+}
+
+/* ============================
+      story_team part css end
+================================*/
+
+/* ============================
+      team part css end
+================================*/
+
+
+/* ============================
+      gallery part css start
+================================*/
+
+#gallery-part {
+    padding-top: 90px;
+    background: url(../images/gallery_bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#gallery-part .gallery {
+    padding-top: 40px;
+    margin: 0 15px;
+    padding-bottom: 60px;
+}
+
+#gallery-part .gallery .img img {
+    width: 100%;
+}
+
+#gallery-part .gallery .img {
+    position: relative;
+}
+
+#gallery-part .gallery .img .icon {
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all ease-in-out .4s;
+}
+
+#gallery-part .gallery .img .icon a {
+    color: #fff;
+    font-size: 40px;
+}
+
+#gallery-part .gallery:hover .icon {
+    opacity: 1;
+}
+
+#gallery-part .button {
+    text-align: center;
+}
+
+#gallery-part .button a {
+    display: inline-block;
+    padding: 15px 35px;
+    background: url(../images/explore_more_bg.png) no-repeat bottom;
+    cursor: pointer;
+    border: 1px solid #2e3232;
+    color: #eb4f34;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 40px;
+}
+
+/* ============================
+    gallery_page part css start
+================================*/
+#gallery-page {
+    background: url(../images/gallery_page_bg.png)no-repeat center;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+/* #gallery-page .shape{
+    width: 97%;
+    margin: 0 auto;
+} */
+
+#gallery-page .main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#gallery-page .item {
+    width: 18%;
+    margin-top: 30px;
+    position: relative;
+}
+
+#gallery-page .item img {
+    width: 100%;
+}
+
+#gallery-page .item .icon {
+    width: 100px;
+    height: 100px;
+    background: rgba(0, 0, 0, .7);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all ease-in-out .4s;
+}
+
+#gallery-page .item .icon a {
+    color: #fff;
+    font-size: 40px;
+}
+
+#gallery-page .item:hover .icon {
+    opacity: 1;
+}
+
+
+/* ============================
+    gallery_page part css end
+================================*/
+
+/* ============================
+      gallery part css end
+================================*/
+
+/* ============================
+      make part css start
+================================*/
+
+#make-part {
+    padding: 100px 0;
+    background: url(../images/make_bg.png) no-repeat center;
+    background-size: cover;
+}
+
+#make-part .img img {
+    width: 100%;
+}
+
+#make-part .text .title {
+    text-align-last: left;
+    margin-bottom: 25px;
+}
+
+#make-part .text form .main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#make-part .text form input {
+    width: 49%;
+    padding: 10px 0;
+    border: 1px solid #222222;
+    background: transparent;
+    color: #fff;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+
+#make-part .text form input:focus {
+    outline: 0;
+}
+
+
+#make-part .text form input::placeholder {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#make-part .text form .drop {
+    width: 32%;
+}
+
+#make-part .text form .drop {
+    padding: 10px 15px;
+    border: 1px solid #222222;
+    background: transparent;
+    margin-bottom: 15px;
+    -webkit-appearance: none;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: url(../images/down_arrow.png) no-repeat right;
+}
+
+#make-part .text form .drop:focus {
+    outline: 0;
+}
+
+#make-part .text form .drop option {
+    background: #000;
+    color: #fff;
+    border: 1px solid #222222;
+    margin: 20px;
+}
+
+#make-part .text form textarea {
+    width: 100%;
+    height: 242px;
+    background: transparent;
+    padding: 10px 0;
+    padding-left: 15px;
+    resize: none;
+    border: 1px solid #222222;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+#make-part .text form textarea:focus {
+    outline: 0;
+}
+
+#make-part .text form textarea::placeholder {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+#make-part .text form .submit button {
+    background: url(../images/mack_buuton_bg.png) no-repeat bottom;
+    color: #ed5034;
+    padding: 20px 43%;
+    border: 1px solid #222222;
+    font-family: 'Yeseva One', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    background-size: cover;
+}
+
+#make-part .smoke {
+    position: relative;
+    z-index: 1;
+}
+
+#make-part .make-bg {
+    position: absolute;
+    top: -70px;
+    left: -85px;
+    z-index: -1;
+}
+
+/* ============================
+      make part css end
+================================*/
+
+/* ============================
+    testimonial part css start
+================================*/
+
+#test-part {
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background: #000;
+}
+
+#test-part .title {
+    margin-bottom: 40px;
+}
+
+#test-part .mid {
+    width: 770px;
+    margin: 0 auto;
+}
+
+#test-part .test .main {
+    display: flex;
+}
+
+#test-part .test .img {
+    width: 30%;
+}
+
+#test-part .test .img img {
+    width: 100%;
+}
+
+#test-part .test .text {
+    width: 70%;
+    background: #0a0b0c;
+    padding: 12px 30px;
+}
+
+#test-part .test .text p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    width: 433px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+#test-part .test .text h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#test-part .test .text h4 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#test-part .test .text .icon i {
+    color: #ed5034;
+}
+
+#test-part .prev {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #ed5034;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+#test-part .prev:hover {
+    background: #ed5034;
+    color: #fff;
+}
+
+#test-part .next {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #ed5034;
+    position: absolute;
+    top: 50%;
+    right: -25px;
+    z-index: 1;
+    transform: translateY(-50%);
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+
+#test-part .next:hover {
+    background: #ed5034;
+    color: #fff;
+}
+
+/* ============================
+    testimonial part css end
+================================*/
+
+/* ============================
+    footer part css start
+================================*/
+
+footer {
+    background: url(../images/footer-bg.png) no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+footer .item {
+    color: #fff;
+    text-align: center;
+}
+
+footer .item h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 37px;
+    display: inline-block;
+    position: relative;
+}
+
+footer .item h3::after {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: #ed5034;
+    content: "";
+}
+
+footer .item p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+footer .icon {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+footer .icon::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 385px;
+    height: 1px;
+    background: #222222;
+    content: "";
+}
+
+footer .icon::before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 385px;
+    height: 1px;
+    background: #222222;
+    content: "";
+}
+
+footer .icon i {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    text-align: center;
+    color: #ed5034;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 0 7px;
+    transition: all ease-in-out .4s;
+}
+
+footer .icon i:hover {
+    background: #ed5034;
+    color: #fff;
+}
+
+footer .footer-bottom {
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer .footer-bottom p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0
+}
+
+/* ============================
+    footer part css end
+================================*/
