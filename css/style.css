@@ -59,6 +59,10 @@ h6 {
     color: #fff;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* ============================
        common css start
 ================================*/
@@ -301,6 +305,10 @@ nav ul li .active::after {
 /* ============================
   contact_banner part css start
 ================================*/
+
+#contact{
+    background: #000;
+}
 
 #contact #banner-part {
     background: url(../images/contact_bg.png) no-repeat center;
