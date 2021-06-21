@@ -333,6 +333,22 @@
         place-items: center;
     }
 
+    #test-part .test .img{
+        width: inherit;
+    }
+
+    #test-part .test .img img {
+        width: inherit;
+    }
+
+    #test-part .prev {
+        left: -11px;
+    }
+
+    #test-part .next{
+        right: -11px;
+    }
+
     /*======== test part end======== */
 
     /*======== footer part start======== */
