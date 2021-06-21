@@ -617,7 +617,7 @@ nav ul li .active::after {
 }
 
 #story #story-part .item .shape {
-    width: 100%;
+    width: 90%;
     height: 100%;
     background: transparent;
     position: absolute;
@@ -625,6 +625,7 @@ nav ul li .active::after {
     left: 0;
     transition: all ease .3s;
     border-radius: 50%;
+    margin-left: 8px;
 }
 
 #story #story-part .item .shape:hover {

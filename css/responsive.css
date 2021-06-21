@@ -200,6 +200,11 @@
         height: 35px;
     }
 
+    #story #story-part .item .shape {
+        width: 100%;
+        margin-left: 0;
+    }
+
     #story #team-part {
         padding-bottom: 100px;
     }
@@ -578,6 +583,11 @@
         height: 45px;
     }
 
+    #story #story-part .item .shape {
+        width: 100%;
+        margin-left: 0;
+    }
+
     /*======== story_story part end======== */
 
     /*======== story part end======== */
@@ -923,6 +933,10 @@
         width: 90%;
     }
 
+    #story #story-part .item .shape {
+        margin-left: 11px;
+    }
+
     /*======== story_story part end======== */
 
     /*======== story part end======== */
@@ -1167,7 +1181,8 @@
     }
 
     #story-part .smoke {
-        display: none;
+        top: -365px;
+        left: -170px;
     }
 
     #story-part .img .icon {
@@ -1195,6 +1210,11 @@
         left: 50%;
     }
 
+    #home #story-part .smoke {
+        top: -286px;
+        left: -153px;
+    }
+
     /*======== home_story part end======== */
 
     /*======== story_story part start======== */
@@ -1216,6 +1236,15 @@
 
     #story #story-part .img .icon {
         top: 62%;
+    }
+
+    #story #story-part .item .shape {
+        width: 91%;
+    }
+
+    #story #story-part .smoke {
+        top: -308px;
+        left: -168px;
     }
 
 
@@ -1269,22 +1298,14 @@
     }
 
     /*======== gallery_page part start======== */
-    /* 
-    #gallery-page {
-        padding-top: 50px;
-    }
-
-    #gallery-page .item{
-        width: 45%;
-    } */
 
     #gallery-page .item .icon {
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
     }
 
-    #gallery-page .item .icon a {
-        font-size: 25px;
+    #gallery-page .item .icon a{
+        font-size: 30px;
     }
 
     /*======== gallery_page part end======== */
@@ -1294,7 +1315,7 @@
     /*======== make part start======== */
 
     #make-part .img img {
-        height: 53vh;
+        height: 111vh;
     }
 
     #make-part .text form .submit button {
