@@ -232,13 +232,23 @@
     }
 
     #hour-part .date {
-        padding-left: 70px;
+        padding-left: 0;
+        display: grid;
+        place-items: center;
         margin-top: 60px;
         border: none;
     }
 
 
     /*======== hour part end======== */
+
+    /*======== team part start======== */
+
+    #team-part .back {
+        left: -92px;
+    }
+
+    /*======== team part end======== */
 
     /*======== gallery part start======== */
     #gallery-part .gallery .img .icon {
@@ -294,6 +304,10 @@
         display: grid;
     }
 
+    #make-part .make-bg {
+        left: -210px;
+    }
+
     /*======== make part end======== */
 
     /*======== test part start======== */
@@ -306,12 +320,17 @@
         width: auto;
     }
 
-    #test-part .test .img img {
-        width: auto;
+    #test-part .test .text {
+        text-align: center;
     }
 
     #test-part .test .text p {
         width: auto;
+    }
+
+    #test-part .test .main {
+        display: grid;
+        place-items: center;
     }
 
     /*======== test part end======== */
@@ -586,7 +605,9 @@
     }
 
     #hour-part .date {
-        padding-left: 80px;
+        padding-left: 0;
+        display: grid;
+        place-items: center;
         margin-top: 60px;
         border: none;
     }
