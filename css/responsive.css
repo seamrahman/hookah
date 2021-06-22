@@ -1315,7 +1315,7 @@
     /*======== make part start======== */
 
     #make-part .img img {
-        height: 111vh;
+        height: 64vh;
     }
 
     #make-part .text form .submit button {
